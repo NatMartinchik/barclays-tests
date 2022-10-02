@@ -1,4 +1,4 @@
-package cloud.autotests.config;
+package martinchik.n.config;
 
 import org.aeonbits.owner.Config;
 
