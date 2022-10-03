@@ -1,19 +1,45 @@
 # Barclays UI tests
 
-### Rewards card eligibility
-:white_check_mark:
+### Rewards card eligibility test
+:white_check_mark: Open Check your eligibility page
+
+:white_check_mark: Select Barclays rewards card
+
+:white_check_mark: Click Check your eligibility
+
+:white_check_mark: Switch to new tab
+
+:white_check_mark: Fill the form
+
+:white_check_mark: Input fields should be successfully filled
 
 ### Existing client error
-:white_check_mark: 
+:white_check_mark: Open Eligibility form 
+
+:white_check_mark: Mark User is existing customer checkbox
+
+:white_check_mark: Error text "If you already have a Barclaycard, you can use the Barclays or Barclaycard app..." should be displayed under the checkbox area
 
 ### Title and gender mismatch error
-:white_check_mark: 
+:white_check_mark: Open Eligibility form
+
+:white_check_mark: Mark User is not existing customer checkbox
+
+:white_check_mark: Select Mrs title
+
+:white_check_mark: Select Male gender
+
+:white_check_mark: Error text "Your gender does not match the title you provided..." should be displayed under the checkbox area
 
 ### Page title test
-:white_check_mark: 
+:white_check_mark: Open Check your eligibility page
+
+:white_check_mark: Page title should have text 'Credit card eligibility checker | Barclays'
 
 ### Console log test
-:white_check_mark: 
+:white_check_mark: Open Check your eligibility page
+
+:white_check_mark: Console logs should not contain text 'SEVERE'
       
 ## Technology Stack
 
