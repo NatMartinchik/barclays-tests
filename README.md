@@ -1,3 +1,26 @@
+# Barclays UI tests
+
+### Rewards card eligibility
+:white_check_mark:
+
+### Existing client error
+:white_check_mark: 
+
+### Title and gender mismatch error
+:white_check_mark: 
+
+### Page title test
+:white_check_mark: 
+
+### Console log test
+:white_check_mark: 
+      
+## Technology Stack
+
+Java, Gradle, Intelij Idea, Selenide, JUnit5, Jenkins, Allure Report
+
+![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)![This is an image](/design/icons/Intelij_IDEA.png)![This is an image](/design/icons/Selenide.png)![This is an image](/design/icons/JUnit5.png)![This is an image](/design/icons/Jenkins.png)![This is an image](/design/icons/Allure_Report.png)
+
 # Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
 
