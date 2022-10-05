@@ -28,10 +28,10 @@ public class TestBase {
             postcode = ukFaker.address().zipCode(),
             phone = ukFaker.phoneNumber().cellPhone();
 
-    Integer day = ukFaker.number().numberBetween(0,28),
-            month = ukFaker.number().numberBetween(0,12),
+    Integer day = ukFaker.number().numberBetween(1,28),
+            month = ukFaker.number().numberBetween(1,12),
             year = ukFaker.number().numberBetween(1950,2002),
-            houseNumber = ukFaker.number().numberBetween(0,50),
+            houseNumber = ukFaker.number().numberBetween(1,50),
             monthlyIncome = ukFaker.number().numberBetween(2000,5000),
             annualIncome = ukFaker.number().numberBetween(30000,70000),
             btAmount = ukFaker.number().numberBetween(3000,7000);
