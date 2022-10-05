@@ -48,7 +48,7 @@ Java, Gradle, Intelij Idea, Selenide, JUnit5, Jenkins, Allure Report
 ![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)![This is an image](/design/icons/Intelij_IDEA.png)![This is an image](/design/icons/Selenide.png)![This is an image](/design/icons/JUnit5.png)![This is an image](/design/icons/Jenkins.png)![This is an image](/design/icons/Allure_Report.png)
 
 # Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/C12-ntlymar-barclays/">jenkins.autotests.cloud/job/%s</a>
 
 
 # USAGE examples
