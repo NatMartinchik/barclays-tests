@@ -137,9 +137,11 @@ public class EligibilityCheckPage {
 
     public void checkAnnualIncomeDecreaseNo() {
         $("#futureAnnualIncomeInd > .bc-radio:nth-child(2) .c-radio-mark").click();
+        $("#futureAnnualIncomeInd > .bc-radio:nth-child(2) .c-radio-mark").click();
     }
 
     public void selectZeroDependants() {
+        $("#monthlyExpenditureDetails .form-row:nth-child(1)").click();
         $("#dk6-combobox").click();
         $("#dk6-0").click();
         $("#monthlyExpenditureDetails .form-row:nth-child(1)").click();
