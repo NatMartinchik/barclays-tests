@@ -13,6 +13,7 @@
 
 :white_check_mark: Input fields should be successfully filled
 
+
 ### Existing client error
 :white_check_mark: Open Eligibility form 
 
@@ -50,18 +51,23 @@ Java, Gradle, Intelij Idea, Selenide, JUnit5, Jenkins, Allure Report
 # Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/C12-ntlymar-barclays/">jenkins.autotests.cloud/job/%s</a>
 
+Choose browser, browser size etc for parametrized build
+
+![This is an image](/design/images/scr3.jpg)
+
 
 # USAGE examples
 
 ### For run remote tests need fill remote.properties or to pass value:
 
 * browser (default chrome)
-* browserVersion (default 89.0)
+* browserVersion (default 100.0)
 * browserSize (default 1920x1080)
 * browserMobileView (mobile device name, for example iPhone X)
 * remoteDriverUrl (url address from selenoid or grid)
 * videoStorage (url address where you should get video)
-* threads (number of threads)
+
+![This is an image](/design/images/dec5d946f56a827f.gif)
 
 
 Run tests with filled remote.properties:
@@ -71,8 +77,15 @@ gradle clean test
 
 Run tests with not filled remote.properties:
 ```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
+gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ test
 ```
+
+### Allure report examples
+
+![This is an image](/design/images/scr1.jpg)
+
+![This is an image](/design/images/scr4.jpg)
+
 
 Serve report:
 ```bash
@@ -80,5 +93,8 @@ allure serve build/allure-results
 ```
 
 
+### Automated notifications about test results
 
+![This is an image](/design/images/scr5.jpg)
 
+### Integratable with Jira and Allure TestOps
